@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ソフトウェア会館</title>
+    <link rel="icon" type="image/x-icon" href="gu/fn.ico">
+</head>
+<body>
+<!-- こんにちはコメント始め -->
+<style type="text/css">
+.scroll {
+  margin     : auto;
+  width      : 96%;
+  font-size  : 140%;
+  line-height: 1.5em;
+  text-align : left;
+  border     : 1px solid #666;
+  color      : #000000;
+  background : #fff;
+  overflow   : hidden;
+}
+.scroll span{
+  display     : inline-block;
+  white-space : nowrap;
+  line-height : 1em;
+  animation   : scrollAnime 4s linear infinite alternate;
+}
+@keyframes scrollAnime{
+    0% {
+        margin-left: 100%;
+        transform  : translateX(-100%)
+       }
+  100% {
+        margin-left: 0;
+        transform  : translateX(0)
+       }
+}
+</style>
+<div class="scroll">
+  <span>こんにちは</span>
+</div>
+
+<!-- こんにちはコメント終わり -->
+</body>
+</html>
