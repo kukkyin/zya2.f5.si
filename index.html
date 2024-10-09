@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webアプリ開発部</title>
+    <link rel="stylesheet" href="css/style-home.css">
+    <!-- Google Fontsの読み込み -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- ヘッダー -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Webアプリ開発部</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">ホーム</a></li>
+                    <li><a href="projects">開発中のプロジェクト</a></li>
+                    <li><a href="completed">完成プロジェクト</a></li>
+                    <li><a href="#contact">お問い合わせ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ヒーローセクション -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>未来を創る、革新的なアプリケーション</h2>
+            <p>私たちは最新の技術と創造力を駆使して、ユーザーに価値あるソリューションを提供します。</p>
+            <a href="projects.html" class="btn">プロジェクトを見る</a>
+        </div>
+    </section>
+
+    <!-- 部の紹介セクション -->
+    <section id="about">
+        <div class="container">
+            <h2>Webアプリ開発部について</h2>
+            <p>私たちの開発部は、優れた技術力とチームワークを持つメンバーが集まり、革新的なウェブアプリケーションの開発に取り組んでいます。常に最新の技術トレンドを追求し、ユーザーのニーズに応える製品を提供します。</p>
+            <div class="team">
+                <div class="team-member">
+                    <img src="member1.jpg" alt="メンバー1">
+                    <h3>山田 太郎</h3>
+                    <p>フロントエンド開発者</p>
+                </div>
+                <div class="team-member">
+                    <img src="member2.jpg" alt="メンバー2">
+                    <h3>佐藤 花子</h3>
+                    <p>バックエンド開発者</p>
+                </div>
+                <div class="team-member">
+                    <img src="member3.jpg" alt="メンバー3">
+                    <h3>鈴木 一郎</h3>
+                    <p>デザイナー</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- プロジェクトのハイライトセクション -->
+    <section id="projects-highlight">
+        <div class="container">
+            <h2>プロジェクトのハイライト</h2>
+            <div class="highlight-cards">
+                <div class="card">
+                    <img src="superapp.jpg" alt="SuperApp">
+                    <h3>SuperApp</h3>
+                    <p>次世代のアプリケーション。日常生活を劇的に改善します。</p>
+                    <a href="projects.html" class="btn">詳細を見る</a>
+                </div>
+                <div class="card">
+                    <img src="taskmanager.jpg" alt="TaskManager">
+                    <h3>TaskManager</h3>
+                    <p>シンプルでパワフルなタスク管理アプリ。</p>
+                    <a href="completed.html" class="btn">ダウンロード</a>
+                </div>
+                <div class="card">
+                    <img src="chatbot.jpg" alt="ChatBot">
+                    <h3>ChatBot</h3>
+                    <p>自然言語処理を活用したチャットボット。</p>
+                    <a href="projects.html" class="btn">詳細を見る</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- お問い合わせセクション -->
+    <section id="contact">
+        <div class="container">
+            <h2>お問い合わせ</h2>
+            <form action="submit-contact.php" method="post">
+                <input type="text" name="name" placeholder="お名前" required>
+                <input type="email" name="email" placeholder="メールアドレス" required>
+                <textarea name="message" placeholder="メッセージ" required></textarea>
+                <button type="submit" class="btn">送信</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- フッター -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Webアプリ開発部. All Rights Reserved.</p>
+            <div class="social-media">
+                <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+                <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+                <a href="#"><img src="linkedin-icon.png" alt="LinkedIn"></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
